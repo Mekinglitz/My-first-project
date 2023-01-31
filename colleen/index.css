@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: grey;
+    
+}
+    
+    main{
+    margin: 0px 50px;
+    margin-top: 30px;
+    }
+    .first{
+        width:100%;
+        background-color:blue;
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 50px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .nav{
+        display: flex;
+        margin: auto;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .nav li{
+        padding-left: 40px;
+        color: white;
+        list-style: none;
+        }
+
+    .second{
+        display:flex;
+        margin-top:20px;
+        justify-content:space-between;
+    }
+    .box{
+        width: 30%;
+    }
+    h2{
+        background-color: rgb(220, 205, 205);
+    }
+    ul{
+        margin-left: 18px;
+        margin-top: 10px;
+    }
+    h4{
+        color: rebeccapurple;
+        text-decoration-line: underline;
+    }
+    .next{
+        display:flex;
+        margin-top:50px;
+        justify-content:space-between;
+        background-color:white;
+        }
+    
+    .food{
+        padding-top: 20px;
+        width:200px;
+        height:45px;
+        background-color:rgba(0, 255, 255, 0.795);
+        display: flex;
+        font-weight: 400px;
+        font-size: x-large;
+        font-family:Arial, Helvetica, sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .apples{
+        padding-top: 20px;
+        text-align:left;
+        font-size:x-large; 
+        line-height:200%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgba(9, 8, 6, 0.924);
+        column-gap: 5px;
+        display: flex;
+        justify-content:space-between;
+    }
+    .detail{
+        font-style:italic;
+    }
+    .last{
+        width:100%;
+        background-color:blue;
+        display: flex;
+        flex-direction: column;
+    }
+    .last1{
+        font-size: medium;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    
